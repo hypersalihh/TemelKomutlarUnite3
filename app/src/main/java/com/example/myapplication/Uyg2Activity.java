@@ -9,12 +9,13 @@ public class Uyg2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.uyg2layout);
 
-        uygulama2();
+        main();
     }
-    public void uygulama2() {
-        char sayi = 'A' + 32;
-        System.out.println(sayi);
+    public void main() {
+        boolean degisken1 = true;
+        boolean degisken2 = false;
+        System.out.println(degisken1);
+        System.out.println(degisken2);
     }
 }

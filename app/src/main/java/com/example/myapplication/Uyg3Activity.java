@@ -9,9 +9,12 @@ public class Uyg3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.uyg2layout);
 
-        char a = 'A';
-        int s = (int) a;
-        System.out.println(s);
+        uygulama2();
+    }
+    public void uygulama2() {
+        char sayi = 'A' + 32;
+        System.out.println(sayi);
     }
 }

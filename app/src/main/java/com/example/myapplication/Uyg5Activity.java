@@ -5,17 +5,14 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class UygActivity extends AppCompatActivity {
+public class Uyg5Activity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        main();
-    }
-    public void main() {
-        boolean degisken1 = true;
-        boolean degisken2 = false;
-        System.out.println(degisken1);
-        System.out.println(degisken2);
+        float fl = 1f/3f;
+        double db = 1d/3d;
+        System.out.println("Float: " + fl );
+        System.out.println("Double: " + db );
     }
 }
