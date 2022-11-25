@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btn6;
     Button btn7;
+    Button btn8;
 
 
 
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Button uygulama4 = findViewById(R.id.btn4);
         btn6 = findViewById(R.id.btn6);
         btn7 = findViewById(R.id.btn7);
-        btn7 = findViewById(R.id.button);
+        btn8 = findViewById(R.id.button);
 
 
         temelkomutlaragit.setOnClickListener(new View.OnClickListener() {

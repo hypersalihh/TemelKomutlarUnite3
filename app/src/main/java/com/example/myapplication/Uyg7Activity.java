@@ -18,8 +18,8 @@ public class Uyg7Activity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg7_activity);
-        edittext1= findViewById(R.id.editTextTextMultiLine);
-        edittext2= findViewById(R.id.editTextTextMultiLine2);
+        edittext1= findViewById(R.id.editTextNumber);
+        edittext2= findViewById(R.id.editTextNumber2);
         Button a = findViewById(R.id.button);
         a.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,8 +27,8 @@ public class Uyg7Activity extends AppCompatActivity {
                 String a = edittext1.getText().toString();
                 String b = edittext1.getText().toString();
 
-                int x = Integer.parseInt(a);
-                int y = Integer.parseInt(b);
+                int x = Integer.parseInt(b);
+                int y = Integer.parseInt(a);
 
                 int toplam = x + y;
                 int fark = x - y;
