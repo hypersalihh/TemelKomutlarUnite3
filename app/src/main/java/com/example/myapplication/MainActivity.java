@@ -6,13 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
     Button btn6;
     Button btn7;
-    Button btn8;
+    Button btnuyg8;
 
 
 
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Button uygulama4 = findViewById(R.id.btn4);
         btn6 = findViewById(R.id.btn6);
         btn7 = findViewById(R.id.btn7);
-        btn8 = findViewById(R.id.button);
+        btnuyg8 = findViewById(R.id.btn8);
 
 
         temelkomutlaragit.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +67,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, Uyg7Activity.class);
+                startActivity(i);
+            }
+        });
+        btnuyg8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,Uyg8Activity.class);
                 startActivity(i);
             }
         });
