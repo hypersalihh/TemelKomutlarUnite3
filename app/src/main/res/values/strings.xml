@@ -11,6 +11,7 @@
     <string name="uyg8">Atama Operatörleri</string>
     <string name="uyg9">Karşılaştırma Operatörleri</string>
     <string name="uyg10">Mantıksal Operatorler</string>
+    <string name="uyg11">Logcat</string>
     <string name="uyg1">Mantıksal Operatörler</string>
     <string name="g_nder">Gönder</string>
 </resources>

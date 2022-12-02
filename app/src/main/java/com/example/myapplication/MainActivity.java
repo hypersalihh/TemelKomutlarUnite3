@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnuyg8;
     Button btn9;
     Button btn10;
+    Button btn11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         btnuyg8 = findViewById(R.id.btn8);
         btn9 = findViewById(R.id.btn9);
         btn10 = findViewById(R.id.btn10);
+        btn11 = findViewById(R.id.btn11);
+
 
         temelkomutlaragit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,6 +92,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,Uyg10Activity.class);
+                startActivity(i);
+            }
+        });
+        btn11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,Uyg11Activity.class);
                 startActivity(i);
             }
         });
