@@ -32,6 +32,7 @@
         <activity android:name=".Uyg9Activity"></activity>
         <activity android:name=".Uyg10Activity"></activity>
         <activity android:name=".Uyg11Activity"></activity>
+        <activity android:name=".Uyg12Activity"></activity>
     </application>
 
 </manifest>
